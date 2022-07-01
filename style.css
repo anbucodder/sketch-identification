@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: wheat;
+    border: 10px solid burlywood;
+}
+
+#nav{
+    background-color: #efb64d;
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 5px 5px rgb(255, 96, 96);
+    padding: 15px;
+    margin: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px #725929;
+}
+p{
+    color: rgb(27, 255, 10);
+    font-size: 20px;
+    padding-top: 3px;
+    font-weight: bolder;
+    text-shadow: 2px -2px 2px rgb(13, 97, 7);
+}
+#show_sketch{
+    float:right;
+    box-shadow: 10px 5px 5px rgb(101, 101, 101);
+    margin-right: 20px;
+}
+#show_sketch:hover {
+     box-shadow:none; 
+}
+#clear{
+    float:right;
+    box-shadow: 10px 5px 5px rgb(101, 101, 101);
+    margin-right: 20px;
+}
+#clear:hover {
+     box-shadow:none; 
+}
+canvas{
+    border: 5px solid wheat;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 10px 10px 10px rgb(231, 93, 93);}
+    to{box-shadow: 10px 10px 10px rgb(248, 183, 63);}
+}
